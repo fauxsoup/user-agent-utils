@@ -1,4 +1,4 @@
-package eu.bitwalker.useragentutils.browser;
+package src.test.java.eu.bitwalker.useragentutils.browser;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,10 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import eu.bitwalker.useragentutils.Browser;
-import eu.bitwalker.useragentutils.OperatingSystem;
-import eu.bitwalker.useragentutils.UserAgent;
-import eu.bitwalker.useragentutils.Version;
+import src.main.java.eu.bitwalker.useragentutils.*;
 
 /**
  * @author pcollaog

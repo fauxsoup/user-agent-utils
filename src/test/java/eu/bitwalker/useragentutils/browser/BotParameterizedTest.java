@@ -1,14 +1,13 @@
-package eu.bitwalker.useragentutils.browser;
+package src.test.java.eu.bitwalker.useragentutils.browser;
 
-import static eu.bitwalker.useragentutils.Browser.BOT;
+import static src.main.java.eu.bitwalker.useragentutils.Browser.BOT;
 import static java.util.Arrays.asList;
 
 import java.util.Collection;
 
 import org.junit.runners.Parameterized.Parameters;
 
-import eu.bitwalker.useragentutils.Browser;
-import eu.bitwalker.useragentutils.OperatingSystem;
+import src.main.java.eu.bitwalker.useragentutils.*;
 
 public class BotParameterizedTest extends AbstractUserAgentParameterizedTest {
 

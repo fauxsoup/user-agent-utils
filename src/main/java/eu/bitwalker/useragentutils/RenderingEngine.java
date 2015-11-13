@@ -34,7 +34,7 @@
 * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-package eu.bitwalker.useragentutils;
+package src.main.java.eu.bitwalker.useragentutils;
 
 /**
  * Enum constants classifying the different types of rendering engines which are being used by browsers.
@@ -88,6 +88,10 @@ public enum RenderingEngine {
 	
 	private RenderingEngine(String name) {
 		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
 	}
 
 }

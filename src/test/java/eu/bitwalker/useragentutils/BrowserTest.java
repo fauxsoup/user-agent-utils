@@ -35,7 +35,7 @@
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-package eu.bitwalker.useragentutils;
+package src.test.java.eu.bitwalker.useragentutils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -46,6 +46,9 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Test;
+
+import src.main.java.eu.bitwalker.useragentutils.Browser;
+import src.main.java.eu.bitwalker.useragentutils.Version;
 
 /**
  * @author harald

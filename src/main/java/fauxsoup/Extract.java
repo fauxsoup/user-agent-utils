@@ -1,6 +1,6 @@
-package fauxsoup;
+package src.main.java.fauxsoup;
 
-import eu.bitwalker.useragentutils.*;
+import src.main.java.eu.bitwalker.useragentutils.*;
 import net.sf.json.*;
 import java.io.*;
 
@@ -16,8 +16,8 @@ public class Extract {
             operating_systems.element(os.toJSON());
         }
 
-        write_file("json/browsers.json", browsers.toString(4));
-        write_file("json/operating_systems.json", operating_systems.toString(4));
+        write_file("/home/deb/workspace/user-agent-utils/json/browsers.json", browsers.toString(4));
+        write_file("/home/deb/workspace/user-agent-utils/json/operating_systems.json", operating_systems.toString(4));
     }
 
     private static void write_file(String file, String contents) throws IOException {

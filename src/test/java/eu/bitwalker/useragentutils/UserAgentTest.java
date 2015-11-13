@@ -1,15 +1,13 @@
 /**
  * 
  */
-package eu.bitwalker.useragentutils;
+package src.test.java.eu.bitwalker.useragentutils;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import eu.bitwalker.useragentutils.Browser;
-import eu.bitwalker.useragentutils.OperatingSystem;
-import eu.bitwalker.useragentutils.UserAgent;
+import src.main.java.eu.bitwalker.useragentutils.*;
 
 /**
  * @author harald

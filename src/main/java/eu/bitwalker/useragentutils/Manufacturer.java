@@ -35,7 +35,7 @@
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-package eu.bitwalker.useragentutils;
+package src.main.java.eu.bitwalker.useragentutils;
 
 /**
  * Enum constants representing manufacturers of operating systems and client software. 

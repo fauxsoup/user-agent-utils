@@ -1,4 +1,4 @@
-package eu.bitwalker.useragentutils;
+package src.main.java.eu.bitwalker.useragentutils;
 
 public class Utils {
 

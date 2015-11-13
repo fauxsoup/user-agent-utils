@@ -1,4 +1,4 @@
-package eu.bitwalker.useragentutils.browser;
+package src.test.java.eu.bitwalker.useragentutils.browser;
 
 import static java.util.Arrays.asList;
 
@@ -6,8 +6,7 @@ import java.util.Collection;
 
 import org.junit.runners.Parameterized.Parameters;
 
-import eu.bitwalker.useragentutils.Browser;
-import eu.bitwalker.useragentutils.OperatingSystem;
+import src.main.java.eu.bitwalker.useragentutils.*;
 
 public class ToolParameterizedTest extends AbstractUserAgentParameterizedTest {
 

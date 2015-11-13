@@ -35,7 +35,7 @@
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-package eu.bitwalker.useragentutils;
+package src.main.java.eu.bitwalker.useragentutils;
 
 /**
  * Enum contact for the type of used device

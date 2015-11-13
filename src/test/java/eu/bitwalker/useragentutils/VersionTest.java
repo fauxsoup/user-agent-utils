@@ -1,8 +1,10 @@
-package eu.bitwalker.useragentutils;
+package src.test.java.eu.bitwalker.useragentutils;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import src.main.java.eu.bitwalker.useragentutils.Version;
 
 public class VersionTest {
 

@@ -35,7 +35,7 @@
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-package eu.bitwalker.useragentutils;
+package src.test.java.eu.bitwalker.useragentutils;
 
 import static org.junit.Assert.*;
 
@@ -44,7 +44,9 @@ import java.util.List;
 
 import org.junit.Test;
 
-import eu.bitwalker.useragentutils.Application;
+import src.main.java.eu.bitwalker.useragentutils.Manufacturer;
+
+//import eu.bitwalker.useragentutils.Application;
 
 /**
  * Test class for application detection.
